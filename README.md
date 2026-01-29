@@ -1,6 +1,7 @@
 # STM32F407 Home Automation Firmware
 
-![Hardware Setup](https://example.com/hardware-photo.jpg)
+[![Hardware Setup](Home-tour.png)](https://drive.google.com/your-video-link)                                                                 
+       (https://drive.google.com/file/d/1tvSFxGRns0HAA-vrlQIr4DifXAi9sXTK/view?usp=sharing))
 
 ## Introduction
 This project implements a home automation system using the STM32F407 microcontroller. It controls three lights (LT1, LT2, LT3) and a fan through Bluetooth communication with an HC‑05 module. A 16x2 LCD provides real‑time feedback, displaying the ON/OFF status of each device. The firmware ensures reliability and persistence by saving states into RTC backup registers, so the configuration is restored automatically after reset or power loss.
