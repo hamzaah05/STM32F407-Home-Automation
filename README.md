@@ -62,4 +62,4 @@ LCD commands are sent in 4‑bit mode by writing to PC2–PC5 and toggling EN (P
 [![Watch the demo](hardware-thumbnail.png)](https://drive.google.com/your-video-link)](https://drive.google.com/file/d/1npZ_dO4amtHcNS8yN931VfEGnY4YUg1J/view?usp=sharing)
 
 ## Testing System State Retention with RTC
-[![Watch the testing](hardware-thumbnail.png)](https://drive.google.com/your-video-link)](https://drive.google.com/file/d/1npZ_dO4amtHcNS8yN931VfEGnY4YUg1J/view?usp=sharing)
+[![Watch the testing](Testing-RTC.png)](https://drive.google.com/your-video-link)](https://drive.google.com/file/d/1AM2zUDIm_Lt5ZPV46WFZCPLjZUxGiAWY/view?usp=sharing))
