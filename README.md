@@ -297,6 +297,27 @@ LCD commands are sent in 4‑bit mode by writing to PC2–PC5 and toggling EN (P
 | **Total Estimated Cost** | —      | **14,000 PKR**     | For all components               |
 ---
 
+## Contingency Plan
+
+- **Bluetooth Failure**  
+  Use a wired UART connection for direct MCU control to maintain system functionality.
+
+- **Relay or Fan Not Responding**  
+  Verify transistor driver and 12V supply. If unresolved, switch relays/fan manually during demonstration.
+
+- **LCD Malfunction**  
+  Check contrast potentiometer and wiring. If display remains faulty, provide appliance status verbally during demo.
+
+- **Power Supply Issue**  
+  Keep a spare 12V adapter and a multimeter available for quick verification and replacement.
+
+- **Software Crash**  
+  Reflash firmware from laptop. Maintain a backup firmware image ready for immediate deployment.
+
+- **Unexpected Hardware Failure**  
+  Keep spare relays, transistors, and diodes on hand to replace faulty components quickly.
+---
+
 ## Video Demonstration
 [![Watch the demo](hardware-thumbnail.png)](https://drive.google.com/your-video-link)](https://drive.google.com/file/d/1npZ_dO4amtHcNS8yN931VfEGnY4YUg1J/view?usp=sharing)
 
