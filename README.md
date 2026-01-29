@@ -47,6 +47,10 @@ The project demonstrates core embedded system concepts:
 
 ---
 
+## System Block Diagram
+![Block Diagram](Block-Diagram.png)
+---
+
 ## System Design and Register Configuration
 The design integrates multiple STM32F407 peripherals, configured directly through register manipulation for transparency and control.
 
@@ -204,6 +208,12 @@ Constant‑time ISR guarantees real‑time responsiveness. Lightweight firmware 
   <32 KB Flash, <2 KB RAM, minimal GPIO usage → scalable and stable design.  
 
 ---
+
+## Firmware Flow Diagram
+![Block Diagram](Firmware-flow-diagram.png)
+
+---
+
 ## Results and Analysis
 
 ### 1. Wireless Command Response
