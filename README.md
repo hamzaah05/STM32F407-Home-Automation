@@ -57,4 +57,4 @@ Commands are received via USART6 interrupt when `USART6->SR` sets RXNE. The char
 LCD commands are sent in 4‑bit mode by writing to PC2–PC5 and toggling EN (PC1). RS (PC0) selects command/data mode. Timing is controlled using SysTick delays.
 
 ## Video Demonstration
-[Watch the system in action here](https://example.com/video-demo)
+[Watch the system in action here](https://drive.google.com/your-video-link)
