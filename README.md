@@ -280,6 +280,23 @@ LCD commands are sent in 4‑bit mode by writing to PC2–PC5 and toggling EN (P
 | 18-Jan-26  | Online STM32 Forum            | Using 7805 voltage regulator with single 12V supply           | Implemented transistor-assisted 5V supply for MCU |
 | 22-Jan-26  | Electronics Store Staff       | Availability and cost of components (relays, L298N, HC-05)    | Adjusted BOM for cost optimization             |
 ---
+
+## BOM and Budget
+
+| Component              | Quantity | Approx. Cost (PKR) | Purpose / Notes                  |
+|------------------------|----------|--------------------|----------------------------------|
+| STM32F407 MCU          | 1        | 10,000             | Main control unit                |
+| HC-05 Bluetooth Module | 1        | 1,600              | Wireless communication           |
+| 12V Relay Module       | 3        | 600                | Light switching                  |
+| L298N Motor Driver     | 1        | 400                | Fan control                      |
+| 16×2 LCD Display       | 1        | 250                | User feedback interface          |
+| 7805 Voltage Regulator | 1        | 50                 | Step-down 12V → 5V supply        |
+| Jumper wires / Breadboard | —     | 300                | Hardware connections             |
+| Fan Motor (DC 12V)     | 1        | 600                | Appliance control demo           |
+| Lights / LEDs          | 3        | 300                | Appliance control demo           |
+| **Total Estimated Cost** | —      | **14,000 PKR**     | For all components               |
+---
+
 ## Video Demonstration
 [![Watch the demo](hardware-thumbnail.png)](https://drive.google.com/your-video-link)](https://drive.google.com/file/d/1npZ_dO4amtHcNS8yN931VfEGnY4YUg1J/view?usp=sharing)
 
